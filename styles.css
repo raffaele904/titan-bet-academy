@@ -1,0 +1,65 @@
+/* Colori principali */
+:root {
+    --primary: #134361;
+    --secondary: #FF4500;
+    --text: #333333;
+    --background: #FFFFFF;
+}
+
+/* Stile generale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+header {
+    background-color: var(--primary);
+    color: var(--background);
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--background);
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: var(--secondary);
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: var(--primary);
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary);
+    color: var(--background);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--primary);
+    color: var(--background);
+}
